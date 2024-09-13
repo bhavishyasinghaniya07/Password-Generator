@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+body{
+    height: 86vh;
+    background: linear-gradient(rgb(122, 185, 203) , rgb(214, 133, 63));
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(rgb(218, 147, 159), rgb(93, 130, 241));
+    border-radius: 20px;
+    border: 1px solid black;
+  
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(42, 43, 44);
+}
+
+#inp{
+   height: 25px;
+   border-radius: 4px;
+    text-align: center;
+   
+
+}
+
+
+#butn{
+    border-radius: 3px;   
+}
+
+
+.length-container{
+ display: flex;
+ flex-wrap: nowrap;
+ padding: 10px;
+ text-align: center;
+ justify-content: center;
+}
+
+.slider{
+  padding: 10px;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+}
+
+.check{
+    padding: 10px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.finalbtn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;   
+}
+
+.generateButton{
+    border-radius: 5px;
+    height: 35px;
+    padding: 7px;
+    background-color: rgb(31, 193, 193);
+}
+
+.strength-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+#str{
+    background-color: rgb(255, 255, 255);
+    height: 17px;
+    width: 17px;
+    border-radius: 10px;
+    
+}
